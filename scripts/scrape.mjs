@@ -140,6 +140,34 @@ async function scrapeWorkday(firm) {
   return out;
 }
 
+async function runAdzunaQuery(country, appId, appKey, what, where) {
+  let url =
+    `https://api.adzuna.com/v1/api/jobs/${country}/search/1` +
+    `?app_id=${encodeURIComponent(appId)}` +
+    `&app_key=${encodeURIComponent(appKey)}` +
+    `&results_per_page=50` +
+    `&what=${encodeURIComponent(what)}` +
+    `&content-type=application/json`;
+  if (where) url += `&where=${encodeURIComponent(where)}`;
+
+  const data = await fetchJson(url);
+  if (!data || !Array.isArray(data.results)) return [];
+  const out = [];
+  for (const job of data.results) {
+    const companyName = job.company?.display_name || "Unknown";
+    if (!isRelevantPosting(companyName, job.title)) continue;
+    out.push({
+      company: companyName,
+      title: job.title,
+      location: job.location?.display_name || "Unspecified",
+      url: job.redirect_url,
+      source: "Adzuna",
+      datePosted: job.created || null,
+    });
+  }
+  return out;
+}
+
 async function scrapeAdzuna(queries) {
   const appId = process.env.ADZUNA_APP_ID;
   const appKey = process.env.ADZUNA_APP_KEY;
@@ -149,29 +177,20 @@ async function scrapeAdzuna(queries) {
   }
   const country = queries.country || "us";
   const out = [];
+
   for (const q of queries.queries) {
-    const url =
-      `https://api.adzuna.com/v1/api/jobs/${country}/search/1` +
-      `?app_id=${encodeURIComponent(appId)}` +
-      `&app_key=${encodeURIComponent(appKey)}` +
-      `&results_per_page=50` +
-      `&what=${encodeURIComponent(q)}` +
-      `&content-type=application/json`;
-    const data = await fetchJson(url);
-    if (!data || !Array.isArray(data.results)) continue;
-    for (const job of data.results) {
-      const companyName = job.company?.display_name || "Unknown";
-      if (!isRelevantPosting(companyName, job.title)) continue;
-      out.push({
-        company: job.company?.display_name || "Unknown",
-        title: job.title,
-        location: job.location?.display_name || "Unspecified",
-        url: job.redirect_url,
-        source: "Adzuna",
-        datePosted: job.created || null,
-      });
+    out.push(...(await runAdzunaQuery(country, appId, appKey, q, null)));
+  }
+
+  const loc = queries.locationQueries;
+  if (loc?.what && loc?.where) {
+    for (const what of loc.what) {
+      for (const where of loc.where) {
+        out.push(...(await runAdzunaQuery(country, appId, appKey, what, where)));
+      }
     }
   }
+
   return out;
 }
 

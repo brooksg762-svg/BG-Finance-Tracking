@@ -26,5 +26,21 @@
     "hedge fund analyst internship 2027",
     "venture capital internship 2027",
     "real estate investment internship 2027"
-  ]
+  ],
+  "_locationQueriesComment": "Extra searches run with Adzuna's location filter ('where') to give a slight boost to southeast US results, since national finance searches skew toward New York. Each combination of 'what' x 'where' runs as a separate search.",
+  "locationQueries": {
+    "what": [
+      "investment banking summer analyst 2027",
+      "finance internship 2027",
+      "private equity internship 2027",
+      "corporate finance internship 2027"
+    ],
+    "where": [
+      "Atlanta",
+      "Charlotte",
+      "Nashville",
+      "Tampa",
+      "Richmond"
+    ]
+  }
 }
