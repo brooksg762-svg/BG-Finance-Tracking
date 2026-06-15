@@ -89,6 +89,20 @@ async function init() {
 
     document.getElementById("count-pill").textContent = `${allPostings.length} postings`;
 
+    const adzunaPill = document.getElementById("adzuna-status-pill");
+    const adzunaMessages = {
+      rate_limited: "Adzuna search limit reached today — broad search results may be incomplete",
+      error: "Adzuna search had errors today — broad search results may be incomplete",
+      not_configured: "Adzuna search not configured — only direct company career pages are tracked",
+    };
+    const msg = adzunaMessages[data.adzunaStatus];
+    if (msg) {
+      adzunaPill.textContent = msg;
+      adzunaPill.hidden = false;
+    } else {
+      adzunaPill.hidden = true;
+    }
+
     populateSourceFilter();
     render();
   } catch (err) {

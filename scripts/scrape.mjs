@@ -76,6 +76,22 @@ async function fetchJson(url, opts) {
   }
 }
 
+// Like fetchJson, but also returns the HTTP status so callers can detect
+// rate limiting (429) vs other errors.
+async function fetchJsonWithStatus(url, opts) {
+  try {
+    const res = await fetch(url, opts);
+    if (!res.ok) {
+      console.warn(`  skip (${res.status}): ${url}`);
+      return { status: res.status, data: null };
+    }
+    return { status: res.status, data: await res.json() };
+  } catch (err) {
+    console.warn(`  error fetching ${url}: ${err.message}`);
+    return { status: 0, data: null };
+  }
+}
+
 async function scrapeGreenhouse(firm) {
   const url = `https://boards-api.greenhouse.io/v1/boards/${firm.token}/jobs?content=true`;
   const data = await fetchJson(url);
@@ -150,8 +166,8 @@ async function runAdzunaQuery(country, appId, appKey, what, where) {
     `&content-type=application/json`;
   if (where) url += `&where=${encodeURIComponent(where)}`;
 
-  const data = await fetchJson(url);
-  if (!data || !Array.isArray(data.results)) return [];
+  const { status, data } = await fetchJsonWithStatus(url);
+  if (!data || !Array.isArray(data.results)) return { jobs: [], status };
   const out = [];
   for (const job of data.results) {
     const companyName = job.company?.display_name || "Unknown";
@@ -165,33 +181,47 @@ async function runAdzunaQuery(country, appId, appKey, what, where) {
       datePosted: job.created || null,
     });
   }
-  return out;
+  return { jobs: out, status };
 }
 
+// Returns { jobs, status } where status is one of:
+// "ok", "rate_limited", "not_configured", "error"
 async function scrapeAdzuna(queries) {
   const appId = process.env.ADZUNA_APP_ID;
   const appKey = process.env.ADZUNA_APP_KEY;
   if (!appId || !appKey) {
     console.log("Adzuna credentials not set, skipping Adzuna search.");
-    return [];
+    return { jobs: [], status: "not_configured" };
   }
   const country = queries.country || "us";
   const out = [];
+  let rateLimited = false;
+  let sawError = false;
 
-  for (const q of queries.queries) {
-    out.push(...(await runAdzunaQuery(country, appId, appKey, q, null)));
-  }
-
+  const allQueries = [
+    ...queries.queries.map((q) => ({ what: q, where: null })),
+  ];
   const loc = queries.locationQueries;
   if (loc?.what && loc?.where) {
     for (const what of loc.what) {
       for (const where of loc.where) {
-        out.push(...(await runAdzunaQuery(country, appId, appKey, what, where)));
+        allQueries.push({ what, where });
       }
     }
   }
 
-  return out;
+  for (const { what, where } of allQueries) {
+    const { jobs, status } = await runAdzunaQuery(country, appId, appKey, what, where);
+    out.push(...jobs);
+    if (status === 429) rateLimited = true;
+    else if (status !== 200) sawError = true;
+  }
+
+  let resultStatus = "ok";
+  if (rateLimited) resultStatus = "rate_limited";
+  else if (sawError) resultStatus = "error";
+
+  return { jobs: out, status: resultStatus };
 }
 
 function normalizeUrl(url) {
@@ -225,7 +255,9 @@ async function main() {
   }
 
   console.log("Scraping Adzuna for broad job-board coverage...");
-  found.push(...(await scrapeAdzuna(queriesCfg)));
+  const adzunaResult = await scrapeAdzuna(queriesCfg);
+  found.push(...adzunaResult.jobs);
+  console.log(`Adzuna status: ${adzunaResult.status}`);
 
   const now = new Date().toISOString();
   const merged = new Map();
@@ -263,6 +295,7 @@ async function main() {
     lastUpdated: now,
     targetYear: TARGET_YEAR,
     count: finalPostings.length,
+    adzunaStatus: adzunaResult.status,
     postings: finalPostings,
   };
 
