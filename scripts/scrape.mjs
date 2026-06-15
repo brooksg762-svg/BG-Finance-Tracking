@@ -36,6 +36,15 @@ const NON_FINANCE_KEYWORDS = [
   "litigation", "paralegal", "law clerk", "patent agent", "law student",
 ];
 
+// Law firms whose generic "Summer Associate" postings get picked up by
+// finance-related Adzuna searches (Adzuna isn't strict exact-phrase match).
+// Add more firm names here (lowercase, substring match) as they show up.
+const EXCLUDED_COMPANIES = [
+  "jackson lewis", "squire patton boggs", "relman colfax", "banner witcoff",
+  "bondurant mixson", "fagen friedman", "cole, scott", "shumaker",
+  "chisholm chisholm", "konare law", "weintraub tobin", "morgan & morgan",
+];
+
 function isRelevantTitle(title) {
   const t = title.toLowerCase();
   const mentionsIntern = /\b(intern|interns|internship|internships|summer analyst|summer associate)\b/.test(t);
@@ -43,6 +52,13 @@ function isRelevantTitle(title) {
   const mentionsOldYear = OLD_YEARS.some((y) => t.includes(y));
   if (mentionsOldYear) return false;
   if (NON_FINANCE_KEYWORDS.some((k) => t.includes(k))) return false;
+  return true;
+}
+
+function isRelevantPosting(company, title) {
+  if (!isRelevantTitle(title)) return false;
+  const c = (company || "").toLowerCase();
+  if (EXCLUDED_COMPANIES.some((k) => c.includes(k))) return false;
   return true;
 }
 
@@ -119,7 +135,8 @@ async function scrapeAdzuna(queries) {
     const data = await fetchJson(url);
     if (!data || !Array.isArray(data.results)) continue;
     for (const job of data.results) {
-      if (!isRelevantTitle(job.title)) continue;
+      const companyName = job.company?.display_name || "Unknown";
+      if (!isRelevantPosting(companyName, job.title)) continue;
       out.push({
         company: job.company?.display_name || "Unknown",
         title: job.title,
@@ -171,7 +188,7 @@ async function main() {
   // Carry over existing postings that still pass the current filter
   // (drops stale entries that matched an older, looser filter).
   for (const [key, p] of existingByUrl) {
-    if (isRelevantTitle(p.title)) merged.set(key, p);
+    if (isRelevantPosting(p.company, p.title)) merged.set(key, p);
   }
 
   // Add/update with freshly found postings.
