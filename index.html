@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2027 Finance Internship Tracker</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <div>
+        <h1>2027 Finance Internship Tracker</h1>
+        <div class="sub">Investment banking, sales &amp; trading, equity research, capital markets, private credit, corporate finance, and more &mdash; from large banks to small boutiques.</div>
+      </div>
+      <div class="meta">
+        <span class="pill live"><span class="blink"></span>auto-updates daily</span>
+        <span class="pill" id="last-updated">Last updated: --</span>
+        <span class="pill" id="count-pill">0 postings</span>
+      </div>
+    </header>
+
+    <div class="controls">
+      <input id="search" type="text" placeholder="Search by company, title, or location...">
+      <select id="source-filter">
+        <option value="">All sources</option>
+      </select>
+    </div>
+
+    <div class="table-wrap">
+      <table id="postings-table">
+        <thead>
+          <tr>
+            <th data-sort="company">Company</th>
+            <th data-sort="title">Role</th>
+            <th data-sort="location">Location</th>
+            <th data-sort="source">Source</th>
+            <th data-sort="dateFound">Found</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="postings-body">
+          <tr><td colspan="6" class="empty">Loading...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      Data refreshes once per day via an automated job that checks company career pages and job boards for postings matching "intern" / "summer analyst" roles for 2027.
+      Always verify details and apply directly on the company's site.
+    </footer>
+  </div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

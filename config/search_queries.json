@@ -1,0 +1,18 @@
+{
+  "_comment": "Search terms sent to the Adzuna jobs API to catch broad job-board postings across firms not in firms.json. Edit/add terms to widen or narrow coverage. 'country' is an Adzuna country code (us, gb, etc.).",
+  "country": "us",
+  "queries": [
+    "investment banking summer analyst 2027",
+    "investment banking internship 2027",
+    "sales and trading internship 2027",
+    "equity research internship 2027",
+    "capital markets internship 2027",
+    "private credit internship 2027",
+    "private equity internship 2027",
+    "corporate finance internship 2027",
+    "asset management internship 2027",
+    "wealth management internship 2027",
+    "trading internship 2027 summer analyst",
+    "finance summer internship 2027"
+  ]
+}

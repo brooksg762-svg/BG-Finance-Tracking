@@ -1,0 +1,20 @@
+{
+  "_comment": "List of firms whose career pages are scraped directly via their applicant tracking system (ATS) API. 'type' must be 'greenhouse' or 'lever'. The 'token' is the company's board token used in the ATS API URL. Verify/expand this list over time -- the scraper safely skips any token that 404s. To find a token: for Greenhouse, the company's job board URL is usually https://boards.greenhouse.io/<token>; for Lever it's https://jobs.lever.co/<token>.",
+  "firms": [
+    { "name": "Jane Street", "type": "greenhouse", "token": "janestreet" },
+    { "name": "Optiver", "type": "greenhouse", "token": "optiver" },
+    { "name": "IMC Trading", "type": "greenhouse", "token": "imc" },
+    { "name": "Akuna Capital", "type": "greenhouse", "token": "akunacapital" },
+    { "name": "XTX Markets", "type": "greenhouse", "token": "xtxmarkets" },
+    { "name": "Jump Trading", "type": "greenhouse", "token": "jumptrading" },
+    { "name": "Hudson River Trading", "type": "greenhouse", "token": "hudsonrivertrading" },
+    { "name": "DRW", "type": "greenhouse", "token": "drw" },
+    { "name": "Two Sigma", "type": "greenhouse", "token": "twosigma" },
+    { "name": "Robinhood", "type": "greenhouse", "token": "robinhood" },
+    { "name": "Addepar", "type": "greenhouse", "token": "addepar" },
+    { "name": "Flow Traders", "type": "greenhouse", "token": "flowtraders" },
+    { "name": "Tower Research Capital", "type": "lever", "token": "tower-research-capital" },
+    { "name": "Capital Markets Placement (example boutique)", "type": "lever", "token": "cmplacement" },
+    { "name": "Solidus", "type": "lever", "token": "solidus" }
+  ]
+}

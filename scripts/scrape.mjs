@@ -1,0 +1,195 @@
+// Daily scraper for the 2027 Finance Internship Tracker.
+// Pulls postings from company ATS APIs (Greenhouse/Lever) plus the Adzuna
+// job-search API, filters for relevant finance internships, merges with
+// the existing dataset, and writes data/postings.json.
+//
+// Run with: node scripts/scrape.mjs
+// Requires env vars ADZUNA_APP_ID and ADZUNA_APP_KEY for Adzuna search
+// (Adzuna step is skipped silently if these are not set).
+
+import { readFile, writeFile, mkdir } from "fs/promises";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, "..");
+
+const FIRMS_PATH = path.join(ROOT, "config", "firms.json");
+const QUERIES_PATH = path.join(ROOT, "config", "search_queries.json");
+const OUTPUT_PATH = path.join(ROOT, "data", "postings.json");
+
+const TARGET_YEAR = "2027";
+const OLD_YEARS = ["2024", "2025", "2026"];
+const STALE_AFTER_DAYS = 30;
+
+function isRelevantTitle(title) {
+  const t = title.toLowerCase();
+  const mentionsIntern = /(intern|internship|summer analyst)/.test(t);
+  if (!mentionsIntern) return false;
+  const mentionsOldYear = OLD_YEARS.some((y) => t.includes(y));
+  return !mentionsOldYear;
+}
+
+async function fetchJson(url, opts) {
+  try {
+    const res = await fetch(url, opts);
+    if (!res.ok) {
+      console.warn(`  skip (${res.status}): ${url}`);
+      return null;
+    }
+    return await res.json();
+  } catch (err) {
+    console.warn(`  error fetching ${url}: ${err.message}`);
+    return null;
+  }
+}
+
+async function scrapeGreenhouse(firm) {
+  const url = `https://boards-api.greenhouse.io/v1/boards/${firm.token}/jobs?content=true`;
+  const data = await fetchJson(url);
+  if (!data || !Array.isArray(data.jobs)) return [];
+  const out = [];
+  for (const job of data.jobs) {
+    if (!isRelevantTitle(job.title)) continue;
+    out.push({
+      company: firm.name,
+      title: job.title,
+      location: job.location?.name || "Unspecified",
+      url: job.absolute_url,
+      source: "Greenhouse",
+      datePosted: job.updated_at || job.created_at || null,
+    });
+  }
+  return out;
+}
+
+async function scrapeLever(firm) {
+  const url = `https://api.lever.co/v0/postings/${firm.token}?mode=json`;
+  const data = await fetchJson(url);
+  if (!Array.isArray(data)) return [];
+  const out = [];
+  for (const job of data) {
+    const title = job.text || "";
+    if (!isRelevantTitle(title)) continue;
+    out.push({
+      company: firm.name,
+      title,
+      location: job.categories?.location || "Unspecified",
+      url: job.hostedUrl,
+      source: "Lever",
+      datePosted: job.createdAt ? new Date(job.createdAt).toISOString() : null,
+    });
+  }
+  return out;
+}
+
+async function scrapeAdzuna(queries) {
+  const appId = process.env.ADZUNA_APP_ID;
+  const appKey = process.env.ADZUNA_APP_KEY;
+  if (!appId || !appKey) {
+    console.log("Adzuna credentials not set, skipping Adzuna search.");
+    return [];
+  }
+  const country = queries.country || "us";
+  const out = [];
+  for (const q of queries.queries) {
+    const url =
+      `https://api.adzuna.com/v1/api/jobs/${country}/search/1` +
+      `?app_id=${encodeURIComponent(appId)}` +
+      `&app_key=${encodeURIComponent(appKey)}` +
+      `&results_per_page=50` +
+      `&what=${encodeURIComponent(q)}` +
+      `&content-type=application/json`;
+    const data = await fetchJson(url);
+    if (!data || !Array.isArray(data.results)) continue;
+    for (const job of data.results) {
+      if (!isRelevantTitle(job.title)) continue;
+      out.push({
+        company: job.company?.display_name || "Unknown",
+        title: job.title,
+        location: job.location?.display_name || "Unspecified",
+        url: job.redirect_url,
+        source: "Adzuna",
+        datePosted: job.created || null,
+      });
+    }
+  }
+  return out;
+}
+
+function normalizeUrl(url) {
+  return url.split("?")[0].replace(/\/$/, "");
+}
+
+async function main() {
+  const firmsCfg = JSON.parse(await readFile(FIRMS_PATH, "utf-8"));
+  const queriesCfg = JSON.parse(await readFile(QUERIES_PATH, "utf-8"));
+
+  let existing = { lastUpdated: null, postings: [] };
+  try {
+    existing = JSON.parse(await readFile(OUTPUT_PATH, "utf-8"));
+  } catch {
+    // no existing file yet, that's fine
+  }
+  const existingByUrl = new Map(
+    existing.postings.map((p) => [normalizeUrl(p.url), p])
+  );
+
+  const found = [];
+
+  console.log(`Scraping ${firmsCfg.firms.length} company career pages...`);
+  for (const firm of firmsCfg.firms) {
+    console.log(`- ${firm.name} (${firm.type})`);
+    let jobs = [];
+    if (firm.type === "greenhouse") jobs = await scrapeGreenhouse(firm);
+    else if (firm.type === "lever") jobs = await scrapeLever(firm);
+    found.push(...jobs);
+  }
+
+  console.log("Scraping Adzuna for broad job-board coverage...");
+  found.push(...(await scrapeAdzuna(queriesCfg)));
+
+  const now = new Date().toISOString();
+  const merged = new Map();
+
+  // Carry over existing postings, mark them as not-yet-seen-today.
+  for (const [key, p] of existingByUrl) {
+    merged.set(key, p);
+  }
+
+  // Add/update with freshly found postings.
+  for (const job of found) {
+    const key = normalizeUrl(job.url);
+    const prev = merged.get(key);
+    merged.set(key, {
+      ...job,
+      dateFound: prev?.dateFound || now,
+      lastSeen: now,
+    });
+  }
+
+  // Drop postings not seen recently (likely expired/removed).
+  const cutoff = Date.now() - STALE_AFTER_DAYS * 24 * 60 * 60 * 1000;
+  const finalPostings = [...merged.values()].filter((p) => {
+    const lastSeen = p.lastSeen ? new Date(p.lastSeen).getTime() : 0;
+    return lastSeen >= cutoff;
+  });
+
+  // Newest finds first.
+  finalPostings.sort(
+    (a, b) => new Date(b.dateFound).getTime() - new Date(a.dateFound).getTime()
+  );
+
+  const output = {
+    lastUpdated: now,
+    targetYear: TARGET_YEAR,
+    count: finalPostings.length,
+    postings: finalPostings,
+  };
+
+  await mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
+  await writeFile(OUTPUT_PATH, JSON.stringify(output, null, 2));
+  console.log(`Wrote ${finalPostings.length} postings to ${OUTPUT_PATH}`);
+}
+
+main();
