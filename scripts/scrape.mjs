@@ -115,6 +115,31 @@ async function scrapeLever(firm) {
   return out;
 }
 
+async function scrapeWorkday(firm) {
+  // firm: { name, type: "workday", wdHost (e.g. "wd1"), tenant, site }
+  // Career page URL pattern: https://<tenant>.<wdHost>.myworkdayjobs.com/<site>
+  const url = `https://${firm.tenant}.${firm.wdHost}.myworkdayjobs.com/wday/cxs/${firm.tenant}/${firm.site}/jobs`;
+  const data = await fetchJson(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ appliedFacets: {}, limit: 20, offset: 0, searchText: "intern" }),
+  });
+  if (!data || !Array.isArray(data.jobPostings)) return [];
+  const out = [];
+  for (const job of data.jobPostings) {
+    if (!isRelevantTitle(job.title)) continue;
+    out.push({
+      company: firm.name,
+      title: job.title,
+      location: job.locationsText || "Unspecified",
+      url: `https://${firm.tenant}.${firm.wdHost}.myworkdayjobs.com/${firm.site}${job.externalPath}`,
+      source: "Workday",
+      datePosted: null,
+    });
+  }
+  return out;
+}
+
 async function scrapeAdzuna(queries) {
   const appId = process.env.ADZUNA_APP_ID;
   const appKey = process.env.ADZUNA_APP_KEY;
@@ -176,6 +201,7 @@ async function main() {
     let jobs = [];
     if (firm.type === "greenhouse") jobs = await scrapeGreenhouse(firm);
     else if (firm.type === "lever") jobs = await scrapeLever(firm);
+    else if (firm.type === "workday") jobs = await scrapeWorkday(firm);
     found.push(...jobs);
   }
 

@@ -1,5 +1,5 @@
 {
-  "_comment": "List of firms whose career pages are scraped directly via their applicant tracking system (ATS) API. 'type' must be 'greenhouse' or 'lever'. The 'token' is the company's board token used in the ATS API URL. Verify/expand this list over time -- the scraper safely skips any token that 404s. To find a token: for Greenhouse, the company's job board URL is usually https://boards.greenhouse.io/<token>; for Lever it's https://jobs.lever.co/<token>.",
+  "_comment": "List of firms whose career pages are scraped directly via their applicant tracking system (ATS) API. 'type' must be 'greenhouse', 'lever', or 'workday'. Verify/expand this list over time -- the scraper safely skips any entry that 404s. Greenhouse: token is from https://boards.greenhouse.io/<token>. Lever: token is from https://jobs.lever.co/<token>. Workday: visit the firm's careers page -- the URL looks like https://<tenant>.<wdHost>.myworkdayjobs.com/<site> (e.g. wd1, wd3, wd5); set 'tenant', 'wdHost', and 'site' from that URL. Example (not verified): { \"name\": \"Example Bank\", \"type\": \"workday\", \"tenant\": \"examplebank\", \"wdHost\": \"wd1\", \"site\": \"External\" }",
   "firms": [
     { "name": "Jane Street", "type": "greenhouse", "token": "janestreet" },
     { "name": "Optiver", "type": "greenhouse", "token": "optiver" },
