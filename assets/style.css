@@ -78,6 +78,10 @@ td.empty{text-align:center;color:var(--muted);padding:40px;}
   color:var(--muted);
 }
 
+.boutique-section{margin-top:32px;}
+.boutique-section h2{font-size:18px;font-weight:700;margin-bottom:4px;}
+.boutique-section .sub{color:var(--muted);font-size:13px;margin-bottom:12px;}
+
 footer{margin-top:20px;color:var(--muted);font-size:12px;line-height:1.6;}
 
 @media (max-width: 700px){

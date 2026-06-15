@@ -98,6 +98,33 @@ async function init() {
   }
 }
 
+async function initBoutiqueList() {
+  try {
+    const res = await fetch("config/boutique_firms.json", { cache: "no-store" });
+    const data = await res.json();
+    const firms = data.firms || [];
+    const tbody = document.getElementById("boutique-body");
+    if (firms.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="3" class="empty">No boutique firms listed.</td></tr>`;
+      return;
+    }
+    tbody.innerHTML = firms
+      .map(
+        (f) => `
+      <tr>
+        <td>${escapeHtml(f.name)}</td>
+        <td>${escapeHtml(f.note)}</td>
+        <td><a class="apply-link" href="${escapeAttr(f.url)}" target="_blank" rel="noopener noreferrer">Visit</a></td>
+      </tr>`
+      )
+      .join("");
+  } catch (err) {
+    document.getElementById("boutique-body").innerHTML =
+      `<tr><td colspan="3" class="empty">Could not load boutique firm list.</td></tr>`;
+    console.error(err);
+  }
+}
+
 document.getElementById("search").addEventListener("input", render);
 document.getElementById("source-filter").addEventListener("change", render);
 document.querySelectorAll("th[data-sort]").forEach((th) => {
@@ -110,3 +137,4 @@ document.querySelectorAll("th[data-sort]").forEach((th) => {
 });
 
 init();
+initBoutiqueList();

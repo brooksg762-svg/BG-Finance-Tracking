@@ -1,0 +1,21 @@
+{
+  "_comment": "Small boutique firms that don't use a trackable ATS (Greenhouse/Lever/Workday) and don't post live job listings online. Shown as a static reference list on the site -- not auto-updated. Apply directly via the listed page/contact.",
+  "firms": [
+    { "name": "Brookwood Associates", "url": "https://brookwoodassociates.com/careers/", "note": "Application form for Full-Time Analyst and Associate roles." },
+    { "name": "Edge Healthcare Partners", "url": "https://www.edgehcp.com/", "note": "No careers page found -- contact directly." },
+    { "name": "Croft & Bender", "url": "https://www.croft-bender.com/careers", "note": "No live postings; submit resume via careers page." },
+    { "name": "Mezzo (formerly Mazzone & Associates)", "url": "https://www.mezzoadvisors.com/", "note": "No careers page found -- contact directly." },
+    { "name": "PCE Investment Bankers", "url": "https://www.pcecompanies.com/who-we-are/careers", "note": "States they do not offer an internship program; check for full-time openings." },
+    { "name": "VRA Partners", "url": "https://vrapartners.com/", "note": "No careers page found -- contact directly." },
+    { "name": "Linch Capital", "url": "https://linchcapital.com/", "note": "No careers page found -- contact directly." },
+    { "name": "Neri Capital Partners", "url": "https://www.nericap.com/careers", "note": "No live postings; contact via careers page." },
+    { "name": "Piedmont M&A Advisors", "url": "https://piedmontmna.com/", "note": "No careers page found -- contact directly." },
+    { "name": "Bourne Partners", "url": "https://bourne-partners.com/", "note": "Careers page blocked automated access -- check manually." },
+    { "name": "Bundy Group", "url": "https://bundygroup.com/careers/", "note": "Has an 'Open Opportunities' section -- check periodically." },
+    { "name": "DecisionPoint Advisors", "url": "https://decisionpointint.com/careers", "note": "Lists 'Analyst' as a role type they hire for, but no current openings listed." },
+    { "name": "Dragonfly Capital", "url": "https://www.dragonflycapital.com/", "note": "No careers page found -- contact directly." },
+    { "name": "Tobin & Company", "url": "https://tobinandco.com/investment-banking-analyst-program/", "note": "Summer internship applications due in February; winter internship applications due in October." },
+    { "name": "Allen C. Ewing & Co.", "url": "https://allenewing.com/", "note": "No careers page found -- contact directly." },
+    { "name": "Philpott Ball & Werner", "url": "https://www.pbandw.com", "note": "No careers page found -- contact directly." }
+  ]
+}
