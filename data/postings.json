@@ -1,6 +1,127 @@
 {
-  "lastUpdated": null,
+  "lastUpdated": "2026-06-15T14:26:19.355Z",
   "targetYear": "2027",
-  "count": 0,
-  "postings": []
+  "count": 12,
+  "postings": [
+    {
+      "company": "IMC Trading",
+      "title": "Global Internal Auditor",
+      "location": "Amsterdam, Netherlands",
+      "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4710845101",
+      "source": "Greenhouse",
+      "datePosted": "2026-05-25T02:53:45-04:00",
+      "dateFound": "2026-06-15T14:26:19.355Z",
+      "lastSeen": "2026-06-15T14:26:19.355Z"
+    },
+    {
+      "company": "IMC Trading",
+      "title": "Hardware Machine Learning PhD Research Internship",
+      "location": "Chicago, United States",
+      "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4829785101",
+      "source": "Greenhouse",
+      "datePosted": "2026-05-25T02:53:45-04:00",
+      "dateFound": "2026-06-15T14:26:19.355Z",
+      "lastSeen": "2026-06-15T14:26:19.355Z"
+    },
+    {
+      "company": "Jump Trading",
+      "title": "Campus Trading Team Software Engineer  (Intern)",
+      "location": "Hong Kong",
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=7565728",
+      "source": "Greenhouse",
+      "datePosted": "2026-02-12T15:50:38-05:00",
+      "dateFound": "2026-06-15T14:26:19.355Z",
+      "lastSeen": "2026-06-15T14:26:19.355Z"
+    },
+    {
+      "company": "Robinhood",
+      "title": "Director of Internal Audit",
+      "location": "London, UK",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7490045?t=gh_src=&gh_jid=7490045",
+      "source": "Greenhouse",
+      "datePosted": "2026-06-12T13:46:57-04:00",
+      "dateFound": "2026-06-15T14:26:19.355Z",
+      "lastSeen": "2026-06-15T14:26:19.355Z"
+    },
+    {
+      "company": "Robinhood",
+      "title": "Director of Internal Audit",
+      "location": "Luxembourg, Luxembourg",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7490048?t=gh_src=&gh_jid=7490048",
+      "source": "Greenhouse",
+      "datePosted": "2026-06-12T13:46:57-04:00",
+      "dateFound": "2026-06-15T14:26:19.355Z",
+      "lastSeen": "2026-06-15T14:26:19.355Z"
+    },
+    {
+      "company": "Robinhood",
+      "title": "Staff Product Manager, International",
+      "location": "Menlo Park, CA; New York, NY",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7812801?t=gh_src=&gh_jid=7812801",
+      "source": "Greenhouse",
+      "datePosted": "2026-06-12T13:46:57-04:00",
+      "dateFound": "2026-06-15T14:26:19.355Z",
+      "lastSeen": "2026-06-15T14:26:19.355Z"
+    },
+    {
+      "company": "Robinhood",
+      "title": "Staff Product Manager, International Growth & Expansion",
+      "location": "London, UK",
+      "url": "https://boards.greenhouse.io/robinhood/jobs/7489427?t=gh_src=&gh_jid=7489427",
+      "source": "Greenhouse",
+      "datePosted": "2026-06-12T13:46:57-04:00",
+      "dateFound": "2026-06-15T14:26:19.355Z",
+      "lastSeen": "2026-06-15T14:26:19.355Z"
+    },
+    {
+      "company": "Flow Traders",
+      "title": "Trading Intern ",
+      "location": "Hong Kong",
+      "url": "https://job-boards.greenhouse.io/flowtraders/jobs/7100637",
+      "source": "Greenhouse",
+      "datePosted": "2026-05-26T23:19:28-04:00",
+      "dateFound": "2026-06-15T14:26:19.355Z",
+      "lastSeen": "2026-06-15T14:26:19.355Z"
+    },
+    {
+      "company": "Stout",
+      "title": "2027 Investment Banking Summer Analyst (Chicago)",
+      "location": "Chicago, Cook County",
+      "url": "https://www.adzuna.com/details/5635351641?utm_medium=api&utm_source=3411d734",
+      "source": "Adzuna",
+      "datePosted": "2026-02-18T19:43:03Z",
+      "dateFound": "2026-06-15T14:26:19.355Z",
+      "lastSeen": "2026-06-15T14:26:19.355Z"
+    },
+    {
+      "company": "Houlihan Lokey",
+      "title": "2027 Investment Banking Summer Analyst Referral (Class of 2028)",
+      "location": "La Grange, Dutchess County",
+      "url": "https://www.adzuna.com/details/5440911869?utm_medium=api&utm_source=3411d734",
+      "source": "Adzuna",
+      "datePosted": "2025-10-10T07:32:58Z",
+      "dateFound": "2026-06-15T14:26:19.355Z",
+      "lastSeen": "2026-06-15T14:26:19.355Z"
+    },
+    {
+      "company": "Jefferies",
+      "title": "2027 Investment Banking Summer Analyst Program – New York, Israel Coverage Group",
+      "location": "New York City, New York",
+      "url": "https://www.adzuna.com/details/5544868324?utm_medium=api&utm_source=3411d734",
+      "source": "Adzuna",
+      "datePosted": "2025-12-16T15:21:58Z",
+      "dateFound": "2026-06-15T14:26:19.355Z",
+      "lastSeen": "2026-06-15T14:26:19.355Z"
+    },
+    {
+      "company": "T. Rowe Price",
+      "title": "Equity Research Internship Opportunity – Summer 2027",
+      "location": "Patterson, Baltimore",
+      "url": "https://www.adzuna.com/details/5663829790?utm_medium=api&utm_source=3411d734",
+      "source": "Adzuna",
+      "datePosted": "2026-03-13T13:20:55Z",
+      "dateFound": "2026-06-15T14:26:19.355Z",
+      "lastSeen": "2026-06-15T14:26:19.355Z"
+    }
+  ]
 }
