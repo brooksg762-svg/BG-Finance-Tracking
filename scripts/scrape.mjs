@@ -31,6 +31,9 @@ const NON_FINANCE_KEYWORDS = [
   "machine learning", "data scientist", "data engineer", "phd", "ph.d",
   "research scientist", "quant developer", "quantitative developer",
   "it support", "it intern", "systems administrator",
+  // Law-firm "summer associate" postings (caught by broad search queries)
+  "1l", "2l", "3l", "j.d.", "jd candidate", "esq.", "esquire", "attorney",
+  "litigation", "paralegal", "law clerk", "patent agent", "law student",
 ];
 
 function isRelevantTitle(title) {
@@ -165,9 +168,10 @@ async function main() {
   const now = new Date().toISOString();
   const merged = new Map();
 
-  // Carry over existing postings, mark them as not-yet-seen-today.
+  // Carry over existing postings that still pass the current filter
+  // (drops stale entries that matched an older, looser filter).
   for (const [key, p] of existingByUrl) {
-    merged.set(key, p);
+    if (isRelevantTitle(p.title)) merged.set(key, p);
   }
 
   // Add/update with freshly found postings.
