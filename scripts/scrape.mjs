@@ -22,12 +22,25 @@ const TARGET_YEAR = "2027";
 const OLD_YEARS = ["2024", "2025", "2026"];
 const STALE_AFTER_DAYS = 30;
 
+// Roles at finance firms that are clearly not finance-track (tech/research
+// internships posted by trading firms etc.) and should be excluded even
+// though they contain "intern".
+const NON_FINANCE_KEYWORDS = [
+  "software", "hardware", "firmware", "devops", "infrastructure engineer",
+  "site reliability", "network engineer", "security engineer",
+  "machine learning", "data scientist", "data engineer", "phd", "ph.d",
+  "research scientist", "quant developer", "quantitative developer",
+  "it support", "it intern", "systems administrator",
+];
+
 function isRelevantTitle(title) {
   const t = title.toLowerCase();
-  const mentionsIntern = /(intern|internship|summer analyst)/.test(t);
+  const mentionsIntern = /\b(intern|interns|internship|internships|summer analyst|summer associate)\b/.test(t);
   if (!mentionsIntern) return false;
   const mentionsOldYear = OLD_YEARS.some((y) => t.includes(y));
-  return !mentionsOldYear;
+  if (mentionsOldYear) return false;
+  if (NON_FINANCE_KEYWORDS.some((k) => t.includes(k))) return false;
+  return true;
 }
 
 async function fetchJson(url, opts) {
