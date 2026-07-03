@@ -15,6 +15,9 @@
     { "name": "Flow Traders", "type": "greenhouse", "token": "flowtraders" },
     { "name": "Tower Research Capital", "type": "lever", "token": "tower-research-capital" },
     { "name": "Capital Markets Placement (example boutique)", "type": "lever", "token": "cmplacement" },
-    { "name": "Solidus", "type": "lever", "token": "solidus" }
+    { "name": "Solidus", "type": "lever", "token": "solidus" },
+
+    { "name": "Callan", "type": "lever", "token": "callan" },
+    { "name": "Cambridge Associates", "type": "workday", "tenant": "cambridgeassociates", "wdHost": "wd5", "site": "Cambridge_Associates" }
   ]
 }

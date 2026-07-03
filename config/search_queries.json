@@ -25,7 +25,14 @@
     "credit fund analyst internship 2027",
     "hedge fund analyst internship 2027",
     "venture capital internship 2027",
-    "real estate investment internship 2027"
+    "real estate investment internship 2027",
+    "OCIO internship 2027",
+    "outsourced chief investment officer internship 2027",
+    "investment consulting internship 2027",
+    "endowment foundation internship 2027",
+    "pension consulting internship 2027",
+    "institutional investment internship 2027",
+    "investment consultant analyst 2027 internship"
   ],
   "_locationQueriesComment": "Extra searches run with Adzuna's location filter ('where') to give a slight boost to southeast US results, since national finance searches skew toward New York. Each combination of 'what' x 'where' runs as a separate search.",
   "locationQueries": {

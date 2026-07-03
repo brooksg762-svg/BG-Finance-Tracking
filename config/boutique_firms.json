@@ -17,5 +17,21 @@
     { "name": "Tobin & Company", "url": "https://tobinandco.com/investment-banking-analyst-program/", "note": "Summer internship applications due in February; winter internship applications due in October." },
     { "name": "Allen C. Ewing & Co.", "url": "https://allenewing.com/", "note": "No careers page found -- contact directly." },
     { "name": "Philpott Ball & Werner", "url": "https://www.pbandw.com", "note": "No careers page found -- contact directly." }
+  ],
+  "ocioFirms": [
+    { "name": "NEPC", "url": "https://www.nepc.com/about/careers", "note": "Uses Ultipro ATS — check 'Current Opportunities' link on careers page directly.", "autoTracked": false },
+    { "name": "Commonfund", "url": "https://www.commonfund.org/careers", "note": "Uses ADP Workforce Now — internship listings appear under 'Explore Internships' on careers page.", "autoTracked": false },
+    { "name": "Mercer (Marsh McLennan)", "url": "https://careers.marsh.com/global/en/mercer", "note": "Uses Marsh McLennan careers portal — search 'intern' or 'analyst' on their portal.", "autoTracked": false },
+    { "name": "SEI Investments", "url": "https://www.sei.com/careers/open-positions/", "note": "Custom careers portal — check directly for summer analyst or internship roles.", "autoTracked": false },
+    { "name": "Wilshire", "url": "https://www.wilshire.com/careers", "note": "Check careers page directly — ATS not publicly identifiable.", "autoTracked": false },
+    { "name": "GMO (Grantham Mayo Van Otterloo)", "url": "https://www.gmo.com/americas/careers/", "note": "Internship recruitment typically occurs each fall for the following June start. Check site in September–November.", "autoTracked": false },
+    { "name": "FEG (Fund Evaluation Group)", "url": "https://feg.com/careers/open-positions/", "note": "Has a hands-on internship program across Portfolio Management, Research, and Client Service — check careers page directly.", "autoTracked": false },
+    { "name": "Meketa Investment Group", "url": "https://www.meketa.com/careers", "note": "Check careers page directly — ATS blocked automated access.", "autoTracked": false },
+    { "name": "Cliffwater", "url": "https://www.cliffwater.com/careers", "note": "Boutique OCIO/alternatives firm — check careers page directly.", "autoTracked": false },
+    { "name": "Aksia", "url": "https://www.aksia.com/", "note": "Alternatives/OCIO firm — no careers page found, contact directly.", "autoTracked": false },
+    { "name": "Hirtle Callaghan", "url": "https://www.hirtlecallaghan.com/", "note": "Pioneer OCIO firm — no public careers page found, contact directly.", "autoTracked": false },
+    { "name": "Verus Investments", "url": "https://www.verus-investments.com/careers", "note": "Check careers page directly — site blocked automated access.", "autoTracked": false },
+    { "name": "Hammond Associates", "url": "https://www.hammondassoc.com/", "note": "Boutique OCIO — no public careers page found, contact directly.", "autoTracked": false },
+    { "name": "Pension Consulting Alliance (PCA)", "url": "https://www.pensionca.com/", "note": "Boutique OCIO/consulting — contact directly.", "autoTracked": false }
   ]
 }
