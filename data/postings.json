@@ -1,18 +1,508 @@
 {
-  "lastUpdated": "2026-08-18T11:18:32.354Z",
+  "lastUpdated": "2026-08-19T11:18:21.030Z",
   "targetYear": "2027",
-  "count": 224,
+  "count": 273,
   "adzunaStatus": "ok",
   "postings": [
     {
       "company": "JLL",
       "title": "Capital Markets Summer 2027 Internship - New York",
+      "location": "Ny State Campus, Albany County",
+      "url": "https://www.adzuna.com/land/ad/5847226248?se=JkIvq7-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=6B32AF6E31AF5DAFEAA498AA5ECF877AC6E782F6",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T16:24:36Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Morningstar",
+      "title": "Morningstar Summer Internship Program - Corporate Finance (Partner Link) 2027",
+      "location": "Chicago, Cook County",
+      "url": "https://www.adzuna.com/details/5846729259?utm_medium=api&utm_source=3411d734",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T08:40:17Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Fidelity Investments",
+      "title": "Asset Management Business Support Summer 2027 Internship",
+      "location": "Boston, Suffolk County",
+      "url": "https://www.adzuna.com/land/ad/5847191169?se=kptpq7-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=23B89592DED67E07E243BB2297B03FED432E44E9",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T15:59:22Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Grainger Businesses",
+      "title": "Finance Internship (Summer 2027)",
+      "location": "Forest Lake, Lake County",
+      "url": "https://www.adzuna.com/land/ad/5847217352?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=640DF52090F2AE2EC7A7C0AC4F3C5A1EAB27F592",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T16:19:47Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Barclays",
+      "title": "Quantitative Finance Associate Summer Internship Program 2027 New York",
+      "location": "Ny State Campus, Albany County",
+      "url": "https://www.adzuna.com/land/ad/5847193818?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=256F44E72BF999C6AE56EE7995B1F08FDA546FBB",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T16:02:40Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "North Saint Paul, Ramsey County",
+      "url": "https://www.adzuna.com/land/ad/5847934551?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=69DA3E4E3279E30031760692012CF800F8CC5946",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:36Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Little Canada, Ramsey County",
+      "url": "https://www.adzuna.com/land/ad/5847934596?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=EC29A5707B51817E1F1F16EC6830438433B48FB9",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Roseville, Ramsey County",
+      "url": "https://www.adzuna.com/land/ad/5847934615?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=155BB13D1EBC271F6E01476694C5B504844F03BC",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Maplewood, Ramsey County",
+      "url": "https://www.adzuna.com/land/ad/5847934652?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=F383A39A04CAE1CBB783F4AB5F0008DC311893C6",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "New Brighton, Ramsey County",
+      "url": "https://www.adzuna.com/land/ad/5847934701?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=3FCA57CB7E3597822FC98B7E2633F766575CD9E8",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:38Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Minneapolis, Hennepin County",
+      "url": "https://www.adzuna.com/land/ad/5847934713?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=F0BE03A65480F60FD6E7E04C7B53A411B7C5FD9E",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:38Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Eden Prairie, Hennepin County",
+      "url": "https://www.adzuna.com/land/ad/5847934682?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=A417488B0E62AD9AC3D714C7FB92571E3F90E7B8",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Falcon Heights, Ramsey County",
+      "url": "https://www.adzuna.com/land/ad/5847934676?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=7B6ECC318F4A0ABAB7D273C3390EE30D8B49FD7A",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Saint Paul, Ramsey County",
+      "url": "https://www.adzuna.com/land/ad/5847934567?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=265E37753A3BFBB7506440A8721AA9CC70193A18",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Brooklyn, Hennepin County",
+      "url": "https://www.adzuna.com/land/ad/5847934609?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=B12D344FB4FB9D9531E4066C20E0247E03ED4BF1",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Maple Grove, Hennepin County",
+      "url": "https://www.adzuna.com/land/ad/5847934666?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=6BE46F9A54CCB0106D326400A470DC046DA9EF06",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "White Bear Lake, Ramsey County",
+      "url": "https://www.adzuna.com/land/ad/5847934641?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=47FCE99E45EFBD48C80F7CFAC12D7EC39880EB6C",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Golden Valley, Hennepin County",
+      "url": "https://www.adzuna.com/land/ad/5847934716?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=8A5317D03B53651CDDABFA6E273813ABA9DF92B5",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:38Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Blaine, Anoka County",
+      "url": "https://www.adzuna.com/land/ad/5847934629?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=E949F309B6E161224DBDD652A1F3AED17CA8B5A6",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Richfield, Hennepin County",
+      "url": "https://www.adzuna.com/land/ad/5847934604?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=2973A0C5224B9B4525809D53B1C3B21A5A2489F9",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Lauderdale, Ramsey County",
+      "url": "https://www.adzuna.com/land/ad/5847934595?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=0CAE563CC96EB427F4CB42BE6C607A652DF90350",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Apple Valley, Dakota County",
+      "url": "https://www.adzuna.com/land/ad/5847934586?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=5131ED9C83268DEB7DFD186F8952E061DF70F7DE",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Coon Rapids, Anoka County",
+      "url": "https://www.adzuna.com/land/ad/5847934598?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=369A406441A0F9C827E6AAD2DD774D00F34E3775",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Medtronic",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Osseo, Hennepin County",
+      "url": "https://www.adzuna.com/land/ad/5847934568?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=F36595DCA96321D7ECD95A3968E7F6D26E4B30D6",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:10:37Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Wabtec",
+      "title": "Summer 2027 Finance Internship",
+      "location": "Chicago, Cook County",
+      "url": "https://www.adzuna.com/details/5847544754?utm_medium=api&utm_source=3411d734",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T20:21:54Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "ConAgra Foods",
+      "title": "FP&A Internship - Finance Modernization - Summer 2027",
+      "location": "Chicago, Cook County",
+      "url": "https://www.adzuna.com/details/5847813202?utm_medium=api&utm_source=3411d734",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T01:04:01Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Conagra Brands",
+      "title": "FP&A Internship - Finance Modernization - Summer 2027",
+      "location": "Illinois Medical District, Chicago",
+      "url": "https://www.adzuna.com/details/5847619861?utm_medium=api&utm_source=3411d734",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T21:31:39Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Brown Advisory",
+      "title": "2027 Summer Analyst",
+      "location": "Ny State Campus, Albany County",
+      "url": "https://www.adzuna.com/land/ad/5847226549?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=7605691D7373CDE12C24CBCFFA769467E3055DC8",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T16:24:45Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Brown Advisory",
+      "title": "2027 Summer Analyst",
+      "location": "Boston, Suffolk County",
+      "url": "https://www.adzuna.com/land/ad/5847183645?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=FCFD07C7ED190D920227FCC2CDCEE07611FFD157",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T15:55:02Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Pzena Investment Management ",
+      "title": "Summer 2027 MBA Research Analyst Intern",
+      "location": "Ny State Campus, Albany County",
+      "url": "https://www.adzuna.com/land/ad/5847206828?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=431F9C44FA88DDC7D37401ADD2500D6631166A24",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T16:10:26Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "StepStone Group",
+      "title": "2027 Corporate Finance Summer Analyst",
+      "location": "Ny State Campus, Albany County",
+      "url": "https://www.adzuna.com/land/ad/5847171873?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=7DBE366CB8A9FF48646016BE37095F7AAE9B9024",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T15:43:35Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Uline",
+      "title": "Sales Analyst Internship - Summer 2027",
+      "location": "Pleasant Prairie, Kenosha County",
+      "url": "https://www.adzuna.com/land/ad/5846452300?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=B9F8A4FDD10A0389EC22FCE5C1C38B3DCD49125A",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T05:46:48Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Misti Pett",
+      "title": "Commodity Markets Analyst Intern (Summer 2027)",
+      "location": "South Paris, Oxford County",
+      "url": "https://www.adzuna.com/land/ad/5846452194?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=D454E26F524ADC00FD434407314F9068A7EED703",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T05:46:47Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "American Express",
+      "title": "Campus Graduate Masters Summer Internship Program - 2027 Cybersecurity Analyst, Enterprise Technology Services- Phoenix, AZ",
+      "location": "Phoenix, Maricopa County",
+      "url": "https://www.adzuna.com/land/ad/5847160411?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=C6C76B69A67BC4445EE2C7D33CF1AA0C41C94184",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T15:36:49Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Nucor Corporation",
+      "title": "Commodity Markets Analyst Intern (Summer 2027)",
+      "location": "Cincinnati, Hamilton County",
+      "url": "https://www.adzuna.com/details/5847675143?utm_medium=api&utm_source=3411d734",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T22:10:18Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "2027 Investment Banking Summer Associate Program - Early Careers",
+      "location": "Houston, Harris County",
+      "url": "https://www.adzuna.com/land/ad/5847229212?se=DkC7rL-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=DAD9F063A07D235C2896201C6958B202B2889F33",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T16:28:30Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "2027 Investment Banking Summer Associate Program - Early Careers",
+      "location": "Washington, Washington, D.C.",
+      "url": "https://www.adzuna.com/land/ad/5847192690?se=DkC7rL-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=29E7A31B74C2A6BF707AD1472C6FB379897F887D",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T16:02:29Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "2027 Investment Banking Summer Associate Program - Early Careers",
+      "location": "Ny State Campus, Albany County",
+      "url": "https://www.adzuna.com/land/ad/5847202573?se=DkC7rL-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=468184D649C0E349DB507585A0B0DD7C2C3376D0",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T16:07:04Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "2027 Investment Banking Summer Associate Program (CA) - Early Careers",
+      "location": "South San Francisco, San Mateo County",
+      "url": "https://www.adzuna.com/land/ad/5847183448?se=DkC7rL-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=9E93F6DEFE9FF0C51BA84D2E2D71114FB46DD3D3",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T15:55:01Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "2027 Investment Banking Summer Associate Program - Early Careers",
+      "location": "Washington, D.C., US",
+      "url": "https://www.adzuna.com/land/ad/5847758843?se=DkC7rL-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=960EE888D255853DDBAA0309AA6C6A387BE7DB98",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T23:25:40Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "2027 Investment Banking Summer Associate Program - Early Careers",
+      "location": "Charlotte, Mecklenburg County",
+      "url": "https://www.adzuna.com/land/ad/5847749897?se=DkC7rL-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=202050D7D6CC2224102338983E77277938F8512F",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T22:56:04Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "2027 Investment Banking Summer Associate Program - Early Careers",
+      "location": "Grand Central, Manhattan",
+      "url": "https://www.adzuna.com/land/ad/5847736480?se=DkC7rL-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=1D46D9547CCE74EFE3CFDFC95116DE43D519D52D",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T22:52:30Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "2027 Investment Banking Summer Associate Program (CA) - Early Careers",
+      "location": "Pico Heights, Los Angeles County",
+      "url": "https://www.adzuna.com/land/ad/5847461058?se=DkC7rL-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=B45656731D043B75CE377488E271280416326F3D",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T19:34:36Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "2027 Investment Banking Summer Associate Program (CA) - Early Careers",
+      "location": "SoMa, San Francisco",
+      "url": "https://www.adzuna.com/land/ad/5847461046?se=DkC7rL-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=B92E510622F38B86A951D65EC0A53470BB23EB51",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T19:34:36Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "2027 Investment Banking Summer Associate Program - Early Careers",
+      "location": "Old Sixth Ward, Houston",
+      "url": "https://www.adzuna.com/details/5847615560?utm_medium=api&utm_source=3411d734",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T21:20:08Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "2027 Investment Banking Summer Associate Program - Early Careers",
+      "location": "Illinois Medical District, Chicago",
+      "url": "https://www.adzuna.com/details/5847657945?utm_medium=api&utm_source=3411d734",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T21:50:08Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Wells Fargo Bank",
+      "title": "2027 Investment Banking Summer Associate Program (CA) - Early Careers",
+      "location": "San Francisco, California",
+      "url": "https://www.adzuna.com/details/5847945758?utm_medium=api&utm_source=3411d734",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T04:20:05Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Truist Bank",
+      "title": "2027 Finance Internship Program (INTERN CONVERSION)",
+      "location": "Charlotte, Mecklenburg County",
+      "url": "https://www.adzuna.com/land/ad/5846677071?se=ltC-rr-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=4272EE8393596811FD6B680567B75DD464D98AED",
+      "source": "Adzuna",
+      "datePosted": "2026-08-18T07:50:24Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "Apple",
+      "title": "Finance Development Program - 2027 Internship Opportunities",
+      "location": "Mc Neil, Travis County",
+      "url": "https://www.adzuna.com/details/5848021309?utm_medium=api&utm_source=3411d734",
+      "source": "Adzuna",
+      "datePosted": "2026-08-19T05:46:26Z",
+      "dateFound": "2026-08-19T11:18:21.030Z",
+      "lastSeen": "2026-08-19T11:18:21.030Z"
+    },
+    {
+      "company": "JLL",
+      "title": "Capital Markets Summer 2027 Internship - New York",
       "location": "US",
-      "url": "https://www.adzuna.com/land/ad/5846460858?se=ZmK3h_aa8RGLXOy3jHjydA&utm_medium=api&utm_source=3411d734&v=8D1C44D72E1477395883A410847E5F2B2A12C9BF",
+      "url": "https://www.adzuna.com/land/ad/5846460858?se=JkIvq7-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=8D1C44D72E1477395883A410847E5F2B2A12C9BF",
       "source": "Adzuna",
       "datePosted": "2026-08-18T05:49:53Z",
       "dateFound": "2026-08-18T11:18:32.354Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Fidelity",
@@ -32,7 +522,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-17T11:51:28Z",
       "dateFound": "2026-08-18T11:18:32.354Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "William Blair",
@@ -42,7 +532,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-18T04:42:30Z",
       "dateFound": "2026-08-18T11:18:32.354Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Grainger Businesses",
@@ -52,17 +542,17 @@
       "source": "Adzuna",
       "datePosted": "2026-08-18T01:52:37Z",
       "dateFound": "2026-08-18T11:18:32.354Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Barclays",
       "title": "Quantitative Finance Associate Summer Internship Program 2027 New York",
       "location": "US",
-      "url": "https://www.adzuna.com/land/ad/5846211607?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=9952C03D1A46C54000FAE0851B8E65E6375709AB",
+      "url": "https://www.adzuna.com/land/ad/5846211607?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=9952C03D1A46C54000FAE0851B8E65E6375709AB",
       "source": "Adzuna",
       "datePosted": "2026-08-18T03:03:57Z",
       "dateFound": "2026-08-18T11:18:32.354Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Wells Fargo Bank",
@@ -72,7 +562,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-18T00:58:50Z",
       "dateFound": "2026-08-18T11:18:32.354Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "DeciBio Consulting",
@@ -82,7 +572,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-18T03:32:40Z",
       "dateFound": "2026-08-18T11:18:32.354Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Brown Advisory",
@@ -92,7 +582,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-18T00:26:11Z",
       "dateFound": "2026-08-18T11:18:32.354Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Misti Pett",
@@ -148,11 +638,11 @@
       "company": "Wells Fargo",
       "title": "2027 Investment Banking Summer Associate Program - Early Careers",
       "location": "New York City, New York",
-      "url": "https://www.adzuna.com/land/ad/5846158705?se=fjBIifaa8RGLXOy3jHjydA&utm_medium=api&utm_source=3411d734&v=31439AEED7CDB3600F3C87F892826C37F7CB6148",
+      "url": "https://www.adzuna.com/land/ad/5846158705?se=DkC7rL-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=31439AEED7CDB3600F3C87F892826C37F7CB6148",
       "source": "Adzuna",
       "datePosted": "2026-08-18T02:12:09Z",
       "dateFound": "2026-08-18T11:18:32.354Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Wells Fargo",
@@ -178,11 +668,11 @@
       "company": "Barclays",
       "title": "Quantitative Finance Associate Summer Internship Program 2027 New York",
       "location": "New York City, New York",
-      "url": "https://www.adzuna.com/land/ad/5844651057?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=13734FA166B380A7A52B2C8A58AA7C701FA40246",
+      "url": "https://www.adzuna.com/land/ad/5844651057?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=13734FA166B380A7A52B2C8A58AA7C701FA40246",
       "source": "Adzuna",
       "datePosted": "2026-08-16T19:14:32Z",
       "dateFound": "2026-08-17T11:18:42.695Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "JPMorgan Chase Bank, N.A.",
@@ -238,11 +728,11 @@
       "company": "Capital One",
       "title": "Business Analyst Intern - Summer 2027",
       "location": "Mc Lean, Fairfax County",
-      "url": "https://www.adzuna.com/land/ad/5841399079?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=3D2E3965058E158086ED8408E3E8CAC8891030E4",
+      "url": "https://www.adzuna.com/land/ad/5841399079?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=3D2E3965058E158086ED8408E3E8CAC8891030E4",
       "source": "Adzuna",
       "datePosted": "2026-08-14T01:41:26Z",
       "dateFound": "2026-08-15T11:12:49.656Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Uline",
@@ -278,11 +768,11 @@
       "company": "Capital One",
       "title": "Business Analyst Intern - Summer 2027",
       "location": "Grand Central, Manhattan",
-      "url": "https://www.adzuna.com/land/ad/5842673504?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=0FFFCBFF74F2BDAA85495EF8076A05CAAD95519F",
+      "url": "https://www.adzuna.com/land/ad/5842673504?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=0FFFCBFF74F2BDAA85495EF8076A05CAAD95519F",
       "source": "Adzuna",
       "datePosted": "2026-08-14T23:48:10Z",
       "dateFound": "2026-08-15T11:12:49.656Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "The McLean Group",
@@ -292,7 +782,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-14T19:59:58Z",
       "dateFound": "2026-08-15T11:12:49.656Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Capital One",
@@ -302,7 +792,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-14T22:09:21Z",
       "dateFound": "2026-08-15T11:12:49.656Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Capital One",
@@ -312,7 +802,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-14T22:08:23Z",
       "dateFound": "2026-08-15T11:12:49.656Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Capital One",
@@ -322,7 +812,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-14T22:09:21Z",
       "dateFound": "2026-08-15T11:12:49.656Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Melaleuca",
@@ -332,17 +822,17 @@
       "source": "Adzuna",
       "datePosted": "2026-08-14T10:42:01Z",
       "dateFound": "2026-08-15T11:12:49.656Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Raymond James Financial, Inc.",
       "title": "2027 Investment Banking Summer Analyst Capital Structure Advisory, New York, NY",
       "location": "Grand Central, Manhattan",
-      "url": "https://www.adzuna.com/land/ad/5841185734?se=8DpGh_aa8RG0GozwPieWrQ&utm_medium=api&utm_source=3411d734&v=202427339C353AE61646DC3BF820AC8DEA910603",
+      "url": "https://www.adzuna.com/land/ad/5841185734?se=llfXqr-b8RGxdvKQpDThGQ&utm_medium=api&utm_source=3411d734&v=202427339C353AE61646DC3BF820AC8DEA910603",
       "source": "Adzuna",
       "datePosted": "2026-08-13T22:45:28Z",
       "dateFound": "2026-08-14T11:38:57.310Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "ONE Gas",
@@ -358,21 +848,21 @@
       "company": "Capital One",
       "title": "Business Analyst Intern - Summer 2027",
       "location": "Plano, Collin County",
-      "url": "https://www.adzuna.com/land/ad/5841391998?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=0EC3F62F0EF4FD58A998BDC145CC0B0E0EE61ACD",
+      "url": "https://www.adzuna.com/land/ad/5841391998?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=0EC3F62F0EF4FD58A998BDC145CC0B0E0EE61ACD",
       "source": "Adzuna",
       "datePosted": "2026-08-14T01:39:04Z",
       "dateFound": "2026-08-14T11:38:57.310Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Capital One",
       "title": "Business Analyst Intern - Summer 2027",
       "location": "Richmond, Richmond County",
-      "url": "https://www.adzuna.com/land/ad/5841392011?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=B6277B4F9B53092BB735006FCF927DE55408E14A",
+      "url": "https://www.adzuna.com/land/ad/5841392011?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=B6277B4F9B53092BB735006FCF927DE55408E14A",
       "source": "Adzuna",
       "datePosted": "2026-08-14T01:39:04Z",
       "dateFound": "2026-08-14T11:38:57.310Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Uline",
@@ -388,11 +878,11 @@
       "company": "Raymond James",
       "title": "2027 Investment Banking Summer Analyst Capital Structure Advisory, New York, NY",
       "location": "New York City, New York",
-      "url": "https://www.adzuna.com/land/ad/5839590909?se=8DpGh_aa8RG0GozwPieWrQ&utm_medium=api&utm_source=3411d734&v=5CCEA98E92788C7F08EC299FA629A8527F436943",
+      "url": "https://www.adzuna.com/land/ad/5839590909?se=llfXqr-b8RGxdvKQpDThGQ&utm_medium=api&utm_source=3411d734&v=5CCEA98E92788C7F08EC299FA629A8527F436943",
       "source": "Adzuna",
       "datePosted": "2026-08-13T01:33:30Z",
       "dateFound": "2026-08-13T11:41:14.644Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "ING",
@@ -418,11 +908,11 @@
       "company": "Caterpillar Inc.",
       "title": "2027 Summer Intern - Finance",
       "location": "Nashville, Davidson County",
-      "url": "https://www.adzuna.com/land/ad/5838644849?se=EjQYi_aa8RGLXOy3jHjydA&utm_medium=api&utm_source=3411d734&v=6856933F52165C47ED21461FCAFF8A3190A2C317",
+      "url": "https://www.adzuna.com/land/ad/5838644849?se=zjDMrr-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=6856933F52165C47ED21461FCAFF8A3190A2C317",
       "source": "Adzuna",
       "datePosted": "2026-08-12T13:33:05Z",
       "dateFound": "2026-08-13T11:41:14.644Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Uline",
@@ -446,23 +936,23 @@
     },
     {
       "company": "IMC Trading",
-      "title": "Quant Research Intern 2027",
+      "title": "Quantitative Research Intern 2027",
       "location": "Hong Kong, Hong Kong",
       "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4941208101",
       "source": "Greenhouse",
-      "datePosted": "2026-08-17T02:13:12-04:00",
+      "datePosted": "2026-08-19T03:23:20-04:00",
       "dateFound": "2026-08-12T11:40:57.248Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "IMC Trading",
-      "title": "Trader Intern 2027",
+      "title": "Quantitative Trader Intern 2027",
       "location": "Hong Kong, Hong Kong",
       "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4941205101",
       "source": "Greenhouse",
-      "datePosted": "2026-08-17T02:58:36-04:00",
+      "datePosted": "2026-08-19T03:21:01-04:00",
       "dateFound": "2026-08-12T11:40:57.248Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Baird",
@@ -472,7 +962,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-12T05:05:42Z",
       "dateFound": "2026-08-12T11:40:57.248Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Waggoner Financial",
@@ -482,7 +972,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-11T16:47:43Z",
       "dateFound": "2026-08-12T11:40:57.248Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Waggoner Financial",
@@ -492,7 +982,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-11T19:44:11Z",
       "dateFound": "2026-08-12T11:40:57.248Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Uline",
@@ -522,7 +1012,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-11T10:43:00Z",
       "dateFound": "2026-08-12T11:40:57.248Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Truist",
@@ -592,7 +1082,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-08T23:52:48Z",
       "dateFound": "2026-08-09T11:22:06.509Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Uline",
@@ -702,7 +1192,7 @@
       "source": "Greenhouse",
       "datePosted": "2026-08-07T14:30:28-04:00",
       "dateFound": "2026-08-08T11:21:28.185Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Raymond James & Associates",
@@ -712,7 +1202,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-08T05:50:33Z",
       "dateFound": "2026-08-08T11:21:28.185Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Uline",
@@ -742,17 +1232,17 @@
       "source": "Adzuna",
       "datePosted": "2026-08-07T21:19:54Z",
       "dateFound": "2026-08-08T11:21:28.185Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Citigroup",
       "title": "Functions - Internal Audit, Summer Analyst, New York - USA, 2027",
       "location": "Grand Central, Manhattan",
-      "url": "https://www.adzuna.com/land/ad/5832875797?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=D08E290DA082BEAD2D827F977FA92ABB2203AF47",
+      "url": "https://www.adzuna.com/land/ad/5832875797?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=D08E290DA082BEAD2D827F977FA92ABB2203AF47",
       "source": "Adzuna",
       "datePosted": "2026-08-07T22:47:16Z",
       "dateFound": "2026-08-08T11:21:28.185Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "General Dynamics Information Technology",
@@ -778,11 +1268,11 @@
       "company": "MERCY COLLEGE",
       "title": "Chief Operating Officer Group Summer Analyst – 2027 – Hong Kong (Village of Dobbs Ferry)",
       "location": "Dobbs Ferry, Westchester County",
-      "url": "https://www.adzuna.com/land/ad/5830009308?se=RoLfRxuT8RGnA8JdJNBjeg&utm_medium=api&utm_source=3411d734&v=96F439F432F39ACCB82AD5544AB39BD440B59F15",
+      "url": "https://www.adzuna.com/land/ad/5830009308?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=96F439F432F39ACCB82AD5544AB39BD440B59F15",
       "source": "Adzuna",
       "datePosted": "2026-08-05T23:52:41Z",
       "dateFound": "2026-08-07T11:39:38.237Z",
-      "lastSeen": "2026-08-08T11:21:28.185Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Uline",
@@ -798,11 +1288,11 @@
       "company": "MERCY COLLEGE",
       "title": "COO Group Summer Analyst, Hong Kong 2027 (Village of Dobbs Ferry)",
       "location": "Dobbs Ferry, Westchester County",
-      "url": "https://www.adzuna.com/land/ad/5830010596?se=3CNWp1SS8RGdzMg1qo4HcQ&utm_medium=api&utm_source=3411d734&v=0B3EF6579484FBE65A7AC07DC856ADA82EE8B59F",
+      "url": "https://www.adzuna.com/land/ad/5830010596?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=0B3EF6579484FBE65A7AC07DC856ADA82EE8B59F",
       "source": "Adzuna",
       "datePosted": "2026-08-05T23:52:52Z",
       "dateFound": "2026-08-07T11:39:38.237Z",
-      "lastSeen": "2026-08-07T11:39:38.237Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Milliman",
@@ -832,7 +1322,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-06T03:34:03Z",
       "dateFound": "2026-08-06T12:52:51.020Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "KeyBank",
@@ -842,7 +1332,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-06T05:36:06Z",
       "dateFound": "2026-08-06T12:52:51.020Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "KeyBank",
@@ -852,7 +1342,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-06T06:41:46Z",
       "dateFound": "2026-08-06T12:52:51.020Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "MERCY COLLEGE",
@@ -878,21 +1368,21 @@
       "company": "Nestle",
       "title": "2027 Finance & Accounting Internship",
       "location": "Arlington, Arlington County",
-      "url": "https://www.adzuna.com/land/ad/5830374398?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=FFD8E6D81F70D90695DBA8ECEE552061A25A880D",
+      "url": "https://www.adzuna.com/land/ad/5830374398?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=FFD8E6D81F70D90695DBA8ECEE552061A25A880D",
       "source": "Adzuna",
       "datePosted": "2026-08-06T07:05:25Z",
       "dateFound": "2026-08-06T12:52:51.020Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Nestle",
       "title": "2027 Finance & Accounting Internship",
       "location": "Solon, Cuyahoga County",
-      "url": "https://www.adzuna.com/land/ad/5829951010?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=C1B63E0FB69B2AB1C229C4A2BFAF107F970774E7",
+      "url": "https://www.adzuna.com/land/ad/5829951010?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=C1B63E0FB69B2AB1C229C4A2BFAF107F970774E7",
       "source": "Adzuna",
       "datePosted": "2026-08-05T22:47:35Z",
       "dateFound": "2026-08-06T12:52:51.020Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Nestle",
@@ -902,7 +1392,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-05T21:21:11Z",
       "dateFound": "2026-08-06T12:52:51.020Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Pentair",
@@ -912,37 +1402,37 @@
       "source": "Adzuna",
       "datePosted": "2026-08-05T03:06:03Z",
       "dateFound": "2026-08-05T12:48:46.488Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "American Express",
       "title": "Campus Undergraduate Summer Internship Program - 2027 Finance Controllership, Finance - Phoenix, AZ",
       "location": "Phoenix, Maricopa County",
-      "url": "https://www.adzuna.com/land/ad/5828654462?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=03520DE4DA68987102740E29F3363049242A576F",
+      "url": "https://www.adzuna.com/land/ad/5828654462?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=03520DE4DA68987102740E29F3363049242A576F",
       "source": "Adzuna",
       "datePosted": "2026-08-04T22:44:02Z",
       "dateFound": "2026-08-05T12:48:46.488Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "American Express",
       "title": "Campus Undergraduate Summer Internship Program - 2027 Finance, Finance - New York, NY",
       "location": "Grand Central, Manhattan",
-      "url": "https://www.adzuna.com/land/ad/5828650803?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=E7AF6C852EEA7E357727FC0733716C5D53524C6E",
+      "url": "https://www.adzuna.com/land/ad/5828650803?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=E7AF6C852EEA7E357727FC0733716C5D53524C6E",
       "source": "Adzuna",
       "datePosted": "2026-08-04T22:42:46Z",
       "dateFound": "2026-08-05T12:48:46.488Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "American Express",
       "title": "Campus Undergraduate Summer Internship Program - 2027 Finance, Finance - Salt Lake City, UT",
       "location": "Bonnie, Utah County",
-      "url": "https://www.adzuna.com/land/ad/5828775537?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=2C689B26D51C6BCB951B6E47B40569BF5A8400AE",
+      "url": "https://www.adzuna.com/land/ad/5828775537?se=yPulq7-b8RGJlOSIAyUCLQ&utm_medium=api&utm_source=3411d734&v=2C689B26D51C6BCB951B6E47B40569BF5A8400AE",
       "source": "Adzuna",
       "datePosted": "2026-08-05T01:33:33Z",
       "dateFound": "2026-08-05T12:48:46.488Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Medtronic",
@@ -988,11 +1478,11 @@
       "company": "Cambridge Associates",
       "title": "2027 Summer Analyst Internship Program",
       "location": "Boston, Suffolk County",
-      "url": "https://www.adzuna.com/land/ad/5829036749?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=E98C8A2444B78AA0C35AE7208D1E8CF436780065",
+      "url": "https://www.adzuna.com/land/ad/5829036749?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=E98C8A2444B78AA0C35AE7208D1E8CF436780065",
       "source": "Adzuna",
       "datePosted": "2026-08-05T07:11:31Z",
       "dateFound": "2026-08-05T12:48:46.488Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Uline",
@@ -1102,7 +1592,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-04T02:32:16Z",
       "dateFound": "2026-08-05T12:48:46.488Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "American Express",
@@ -1122,27 +1612,27 @@
       "source": "Greenhouse",
       "datePosted": "2026-08-06T21:59:02-04:00",
       "dateFound": "2026-08-04T12:54:49.845Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "American Express",
       "title": "Campus Undergraduate Summer Internship Program - 2027 Finance, Finance - New York, NY",
       "location": "New York City, New York",
-      "url": "https://www.adzuna.com/land/ad/5827401266?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=2FCA632D7DBE941138AD034580D55AACABAA8D17",
+      "url": "https://www.adzuna.com/land/ad/5827401266?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=2FCA632D7DBE941138AD034580D55AACABAA8D17",
       "source": "Adzuna",
       "datePosted": "2026-08-04T01:18:30Z",
       "dateFound": "2026-08-04T12:54:49.845Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "American Express",
       "title": "Campus Undergraduate Summer Internship Program - 2027 Finance Controllership, Finance - Phoenix, AZ",
       "location": "Phoenix, Maricopa County",
-      "url": "https://www.adzuna.com/land/ad/5827403306?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=E9ED728D93F89E2CE34E6F004B45A42480E9AEDB",
+      "url": "https://www.adzuna.com/land/ad/5827403306?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=E9ED728D93F89E2CE34E6F004B45A42480E9AEDB",
       "source": "Adzuna",
       "datePosted": "2026-08-04T01:21:16Z",
       "dateFound": "2026-08-04T12:54:49.845Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "American Express",
@@ -1152,7 +1642,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-04T00:34:17Z",
       "dateFound": "2026-08-04T12:54:49.845Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "American Express",
@@ -1162,7 +1652,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-04T06:20:35Z",
       "dateFound": "2026-08-04T12:54:49.845Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "American Express",
@@ -1172,7 +1662,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-04T01:47:39Z",
       "dateFound": "2026-08-04T12:54:49.845Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "KPMG LLP",
@@ -1212,7 +1702,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-04T00:38:29Z",
       "dateFound": "2026-08-04T12:54:49.845Z",
-      "lastSeen": "2026-08-10T11:42:32.257Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Jefferies",
@@ -1232,7 +1722,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-04T02:13:55Z",
       "dateFound": "2026-08-04T12:54:49.845Z",
-      "lastSeen": "2026-08-08T11:21:28.185Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Jefferies",
@@ -1272,7 +1762,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-03T06:13:10Z",
       "dateFound": "2026-08-03T13:34:47.946Z",
-      "lastSeen": "2026-08-09T11:22:06.509Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Jefferies",
@@ -1282,7 +1772,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-02T23:38:29Z",
       "dateFound": "2026-08-03T13:34:47.946Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "IMC Trading",
@@ -1302,7 +1792,7 @@
       "source": "Adzuna",
       "datePosted": "2026-08-02T04:13:30Z",
       "dateFound": "2026-08-02T11:56:45.135Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "JPMorgan Chase Bank, N.A.",
@@ -1322,7 +1812,7 @@
       "source": "Greenhouse",
       "datePosted": "2026-08-12T20:08:34-04:00",
       "dateFound": "2026-08-01T11:57:49.771Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "IMC Trading",
@@ -1330,9 +1820,9 @@
       "location": "Amsterdam, Netherlands",
       "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4936262101",
       "source": "Greenhouse",
-      "datePosted": "2026-08-13T05:10:16-04:00",
+      "datePosted": "2026-08-18T07:25:40-04:00",
       "dateFound": "2026-08-01T11:57:49.771Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "IMC Trading",
@@ -1340,9 +1830,9 @@
       "location": "Amsterdam, Netherlands",
       "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4939846101",
       "source": "Greenhouse",
-      "datePosted": "2026-08-13T05:10:24-04:00",
+      "datePosted": "2026-08-18T07:25:21-04:00",
       "dateFound": "2026-08-01T11:57:49.771Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "JLL",
@@ -1432,7 +1922,7 @@
       "source": "Adzuna",
       "datePosted": "2026-07-30T23:24:37Z",
       "dateFound": "2026-07-31T12:51:16.392Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Johnson & Johnson Innovative Medicine",
@@ -1522,17 +2012,17 @@
       "source": "Adzuna",
       "datePosted": "2026-07-29T00:45:48Z",
       "dateFound": "2026-07-29T12:56:41.569Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Susquehanna International Group",
       "title": "Equity Analyst Internship: Summer 2027 - Susquehanna International Group",
       "location": "Schiller Park, Cook County",
-      "url": "https://www.adzuna.com/land/ad/5813831184?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=E553756C5AD83330BA70FA3B69D0FD3AFC6243B8",
+      "url": "https://www.adzuna.com/land/ad/5813831184?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=E553756C5AD83330BA70FA3B69D0FD3AFC6243B8",
       "source": "Adzuna",
       "datePosted": "2026-07-24T08:50:24Z",
       "dateFound": "2026-07-25T11:58:29.880Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Southern Arkansas University",
@@ -1548,61 +2038,61 @@
       "company": "Susquehanna International Group",
       "title": "Credit Analyst Internship: Summer 2027 - Susquehanna International Group",
       "location": "Bala Cynwyd, Montgomery County",
-      "url": "https://www.adzuna.com/land/ad/5812529301?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=32731D9832D66376E4D11A01B5E35AC9846B20AC",
+      "url": "https://www.adzuna.com/land/ad/5812529301?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=32731D9832D66376E4D11A01B5E35AC9846B20AC",
       "source": "Adzuna",
       "datePosted": "2026-07-23T12:52:40Z",
       "dateFound": "2026-07-24T12:15:31.350Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Susquehanna International Group",
       "title": "Equity Analyst Internship: Summer 2027 - Susquehanna International Group",
       "location": "Grand Central, Manhattan",
-      "url": "https://www.adzuna.com/land/ad/5812529232?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=5EDD33D564327952687EA4ECBD4F3B71C2EEFF34",
+      "url": "https://www.adzuna.com/land/ad/5812529232?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=5EDD33D564327952687EA4ECBD4F3B71C2EEFF34",
       "source": "Adzuna",
       "datePosted": "2026-07-23T12:52:19Z",
       "dateFound": "2026-07-24T12:15:31.350Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Susquehanna International Group",
       "title": "Equity Analyst Internship: Summer 2027 - Susquehanna International Group",
       "location": "Bala Cynwyd, Montgomery County",
-      "url": "https://www.adzuna.com/land/ad/5812529266?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=8A0AD3C420B3449A1C5C567EF37ACDA3BD7F1F24",
+      "url": "https://www.adzuna.com/land/ad/5812529266?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=8A0AD3C420B3449A1C5C567EF37ACDA3BD7F1F24",
       "source": "Adzuna",
       "datePosted": "2026-07-23T12:52:30Z",
       "dateFound": "2026-07-24T12:15:31.350Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Susquehanna International Group",
       "title": "Macro Analyst Internship: Summer 2027 - Susquehanna International Group",
       "location": "Bala Cynwyd, Montgomery County",
-      "url": "https://www.adzuna.com/land/ad/5812529234?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=B047FC5E9D8F75FEB3D5EA3788C280E6B0E4B2BD",
+      "url": "https://www.adzuna.com/land/ad/5812529234?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=B047FC5E9D8F75FEB3D5EA3788C280E6B0E4B2BD",
       "source": "Adzuna",
       "datePosted": "2026-07-23T12:52:19Z",
       "dateFound": "2026-07-24T12:15:31.350Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Susquehanna International Group",
       "title": "Macro Analyst Internship: Summer 2027 - Susquehanna International Group",
       "location": "Grand Central, Manhattan",
-      "url": "https://www.adzuna.com/land/ad/5812529371?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=528BAC278DC6BA3F7B3A4151AF0E000C667B0BB4",
+      "url": "https://www.adzuna.com/land/ad/5812529371?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=528BAC278DC6BA3F7B3A4151AF0E000C667B0BB4",
       "source": "Adzuna",
       "datePosted": "2026-07-23T12:52:54Z",
       "dateFound": "2026-07-24T12:15:31.350Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Susquehanna International Group",
       "title": "Electricity  Natural Gas Analyst Internship: Summer 2027 - Susquehanna International Group",
       "location": "Bala Cynwyd, Montgomery County",
-      "url": "https://www.adzuna.com/land/ad/5812529223?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=5C89893DF75E81F04F19ADC7A5A594726D824E99",
+      "url": "https://www.adzuna.com/land/ad/5812529223?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=5C89893DF75E81F04F19ADC7A5A594726D824E99",
       "source": "Adzuna",
       "datePosted": "2026-07-23T12:52:19Z",
       "dateFound": "2026-07-24T12:15:31.350Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Susquehanna International Group",
@@ -1622,67 +2112,67 @@
       "source": "Adzuna",
       "datePosted": "2026-07-22T21:22:39Z",
       "dateFound": "2026-07-23T12:20:00.805Z",
-      "lastSeen": "2026-08-17T11:18:42.695Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "TE Connectivity",
       "title": "US Finance Internship Program - Summer 2027",
       "location": "Berwyn, Chester County",
-      "url": "https://www.adzuna.com/land/ad/5809551965?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=090F1C7371E55DB235AD7B859A9E8BC3E296E1F7",
+      "url": "https://www.adzuna.com/land/ad/5809551965?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=090F1C7371E55DB235AD7B859A9E8BC3E296E1F7",
       "source": "Adzuna",
       "datePosted": "2026-07-21T12:57:38Z",
       "dateFound": "2026-07-22T12:22:53.836Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "TE Connectivity",
       "title": "US Finance Internship Program - Summer 2027",
       "location": "Greensboro, Guilford County",
-      "url": "https://www.adzuna.com/land/ad/5809552007?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=62F489C16E8C7E6C5E50F3BF62B05F7FD836ACED",
+      "url": "https://www.adzuna.com/land/ad/5809552007?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=62F489C16E8C7E6C5E50F3BF62B05F7FD836ACED",
       "source": "Adzuna",
       "datePosted": "2026-07-21T12:57:39Z",
       "dateFound": "2026-07-22T12:22:53.836Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "TE Connectivity",
       "title": "US Finance Internship Program - Summer 2027",
       "location": "Middletown, Dauphin County",
-      "url": "https://www.adzuna.com/land/ad/5809563656?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=DAFA3DD288BD953F51CB413926293C54940A814D",
+      "url": "https://www.adzuna.com/land/ad/5809563656?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=DAFA3DD288BD953F51CB413926293C54940A814D",
       "source": "Adzuna",
       "datePosted": "2026-07-21T13:00:32Z",
       "dateFound": "2026-07-22T12:22:53.836Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Wells Fargo",
       "title": "2027 Finance Summer Internship - Early Careers",
       "location": "Irving, Dallas",
-      "url": "https://www.adzuna.com/land/ad/5808523442?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=B80474AC193C836CD29199536B835E2FE2925BE5",
+      "url": "https://www.adzuna.com/land/ad/5808523442?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=B80474AC193C836CD29199536B835E2FE2925BE5",
       "source": "Adzuna",
       "datePosted": "2026-07-20T19:10:28Z",
       "dateFound": "2026-07-21T12:20:39.005Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "BNP Paribas",
       "title": "2027 - Summer Analyst Internship - Corporate Functions, Operations",
       "location": "Jersey City, Hudson County",
-      "url": "https://www.adzuna.com/land/ad/5808522579?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=C43C076F3924AF3952E20E2E7DAA6FE55F3E14D9",
+      "url": "https://www.adzuna.com/land/ad/5808522579?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=C43C076F3924AF3952E20E2E7DAA6FE55F3E14D9",
       "source": "Adzuna",
       "datePosted": "2026-07-20T19:09:42Z",
       "dateFound": "2026-07-21T12:20:39.005Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Morgan Stanley",
       "title": "2027 Technology Summer Analyst Program (Alpharetta)",
       "location": "Alpharetta, Fulton County",
-      "url": "https://www.adzuna.com/land/ad/5808523044?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=0E5B3E9031459C4B740F2F5C058850D6D11E6F36",
+      "url": "https://www.adzuna.com/land/ad/5808523044?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=0E5B3E9031459C4B740F2F5C058850D6D11E6F36",
       "source": "Adzuna",
       "datePosted": "2026-07-20T19:09:45Z",
       "dateFound": "2026-07-21T12:20:39.005Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Morgan Stanley",
@@ -1752,7 +2242,7 @@
       "source": "Greenhouse",
       "datePosted": "2026-07-14T14:28:52-04:00",
       "dateFound": "2026-07-14T16:02:22.581Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Akuna Capital",
@@ -1762,7 +2252,7 @@
       "source": "Greenhouse",
       "datePosted": "2026-08-05T16:39:01-04:00",
       "dateFound": "2026-07-14T16:02:22.581Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Akuna Capital",
@@ -1772,7 +2262,7 @@
       "source": "Greenhouse",
       "datePosted": "2026-07-14T14:29:20-04:00",
       "dateFound": "2026-07-14T16:02:22.581Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "FMI",
@@ -1782,7 +2272,7 @@
       "source": "Adzuna",
       "datePosted": "2026-07-12T06:52:31Z",
       "dateFound": "2026-07-12T14:42:33.874Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "FMI",
@@ -1792,7 +2282,7 @@
       "source": "Adzuna",
       "datePosted": "2026-07-12T05:30:19Z",
       "dateFound": "2026-07-12T14:42:33.874Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Baird",
@@ -1812,7 +2302,7 @@
       "source": "Adzuna",
       "datePosted": "2026-07-11T07:46:40Z",
       "dateFound": "2026-07-11T14:37:27.669Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Flow Traders",
@@ -1822,7 +2312,7 @@
       "source": "Greenhouse",
       "datePosted": "2026-07-29T06:01:08-04:00",
       "dateFound": "2026-07-09T18:12:51.122Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "AlixPartners",
@@ -1872,7 +2362,7 @@
       "source": "Greenhouse",
       "datePosted": "2026-08-14T12:10:16-04:00",
       "dateFound": "2026-07-01T18:19:47.025Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "IMC Trading",
@@ -1882,7 +2372,7 @@
       "source": "Greenhouse",
       "datePosted": "2026-08-14T10:40:50-04:00",
       "dateFound": "2026-07-01T18:19:47.025Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Wells Fargo Bank",
@@ -1898,21 +2388,21 @@
       "company": "Wells Fargo",
       "title": "2027 Finance Summer Internship - Early Careers",
       "location": "Charlotte, Mecklenburg County",
-      "url": "https://www.adzuna.com/land/ad/5779731285?se=zLEDi_aa8RGLXOy3jHjydA&utm_medium=api&utm_source=3411d734&v=7525AFAA1EE915305B61171AD4D4CABBFF3B73A2",
+      "url": "https://www.adzuna.com/land/ad/5779731285?se=ltC-rr-b8RGYprQUPVQOLw&utm_medium=api&utm_source=3411d734&v=7525AFAA1EE915305B61171AD4D4CABBFF3B73A2",
       "source": "Adzuna",
       "datePosted": "2026-06-27T22:38:21Z",
       "dateFound": "2026-06-28T15:53:36.371Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Wells Fargo",
       "title": "2027 Finance Summer Internship - Early Careers",
       "location": "Minneapolis, Hennepin County",
-      "url": "https://www.adzuna.com/land/ad/5779710948?se=Ho-Fifaa8RGCZ5D2ujTEmQ&utm_medium=api&utm_source=3411d734&v=C5BC8E124CC605D2C926B900D6A3CE572C2437CE",
+      "url": "https://www.adzuna.com/land/ad/5779710948?se=8r4grb-b8RG9GKTX6nL1fw&utm_medium=api&utm_source=3411d734&v=C5BC8E124CC605D2C926B900D6A3CE572C2437CE",
       "source": "Adzuna",
       "datePosted": "2026-06-27T22:35:15Z",
       "dateFound": "2026-06-28T15:53:36.371Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Wells Fargo",
@@ -1922,7 +2412,7 @@
       "source": "Adzuna",
       "datePosted": "2026-06-27T20:46:23Z",
       "dateFound": "2026-06-28T15:53:36.371Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Morgan Stanley Campus",
@@ -1962,7 +2452,7 @@
       "source": "Adzuna",
       "datePosted": "2025-12-08T19:59:44Z",
       "dateFound": "2026-06-15T14:49:41.031Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Starwood Property Trust",
@@ -1972,7 +2462,7 @@
       "source": "Adzuna",
       "datePosted": "2026-05-31T06:13:22Z",
       "dateFound": "2026-06-15T14:49:41.031Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Texas Capital Bank",
@@ -1982,27 +2472,27 @@
       "source": "Adzuna",
       "datePosted": "2026-06-13T03:41:08Z",
       "dateFound": "2026-06-15T14:49:41.031Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "JPMorgan Chase",
       "title": "2027 Markets Summer Analyst Program",
       "location": "Grand Central, Manhattan",
-      "url": "https://www.adzuna.com/land/ad/5561765992?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=7DE9831A504D6430A93989484C35AC86038CA5CA",
+      "url": "https://www.adzuna.com/land/ad/5561765992?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=7DE9831A504D6430A93989484C35AC86038CA5CA",
       "source": "Adzuna",
       "datePosted": "2025-12-31T19:32:11Z",
       "dateFound": "2026-06-15T14:49:41.031Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "JPMorgan Chase",
       "title": "2027 Markets Summer Analyst Program - Research",
       "location": "Grand Central, Manhattan",
-      "url": "https://www.adzuna.com/land/ad/5561766001?se=KnK6iPaa8RG46-Yj1ySMGQ&utm_medium=api&utm_source=3411d734&v=5DF7C8B6C6588ABAD2FCB3BE4F575425E4583DA1",
+      "url": "https://www.adzuna.com/land/ad/5561766001?se=8A5brL-b8RGk1JnOPlO_fg&utm_medium=api&utm_source=3411d734&v=5DF7C8B6C6588ABAD2FCB3BE4F575425E4583DA1",
       "source": "Adzuna",
       "datePosted": "2025-12-31T19:32:11Z",
       "dateFound": "2026-06-15T14:49:41.031Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "AQR",
@@ -2207,12 +2697,12 @@
     {
       "company": "Jump Trading",
       "title": "Campus Systems Engineer (Intern)",
-      "location": "Singapore",
-      "url": "https://www.jumptrading.com/hr/job?gh_jid=8027952",
+      "location": "London; Amsterdam",
+      "url": "https://www.jumptrading.com/hr/job?gh_jid=8000323",
       "source": "Greenhouse",
-      "datePosted": "2026-08-08T01:01:45-04:00",
+      "datePosted": "2026-08-18T18:29:59-04:00",
       "dateFound": "2026-06-15T14:26:19.355Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "Flow Traders",
@@ -2232,7 +2722,7 @@
       "source": "Adzuna",
       "datePosted": "2025-12-16T15:21:58Z",
       "dateFound": "2026-06-15T14:26:19.355Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     },
     {
       "company": "T. Rowe Price",
@@ -2242,7 +2732,7 @@
       "source": "Adzuna",
       "datePosted": "2026-03-13T13:20:55Z",
       "dateFound": "2026-06-15T14:26:19.355Z",
-      "lastSeen": "2026-08-18T11:18:32.354Z"
+      "lastSeen": "2026-08-19T11:18:21.030Z"
     }
   ]
 }
